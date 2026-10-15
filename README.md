@@ -1,5 +1,5 @@
 # Check-Your-Git
-Have Ever Checked your Git Repo.
+Have you Ever Checked your Git Repo's ?
 
 # Help Menu
 ```bash
