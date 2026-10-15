@@ -22,3 +22,4 @@ chmod +x CheckMyGit.sh
 - Tags Extraction
 - TruffleHog  Detection 
 - gitleaks    Detection
+- git Dumper  Dump
