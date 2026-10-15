@@ -31,10 +31,10 @@ highlight() {
 
 show_help() {
     cat << EOF
-gitcheck2enum.sh - Clone + Enumerate a Git repository.
+CheckMyGit.sh -> Clone + Enumerate a Git repository.
 
 USAGE:
-    ./gitcheck2enum.sh [-u URL | -p PATH] [-h|--help]
+    ./CheckMyGit.sh [-u URL | -p PATH] [-h|--help]
 
 OPTIONS:
     -u, --url <URL>     Git remote URL to clone (https/ssh/git)
@@ -44,8 +44,8 @@ OPTIONS:
     If neither is supplied you'll be prompted interactively.
 
 EXAMPLES:
-    ./gitcheck2enum.sh -u https://10.129.60.23/app.git
-    ./gitcheck2enum.sh -p ./Already-cloned-Repo
+    ./CheckMyGit.sh -u https://10.10.10.10/app.git
+    ./CheckMyGit.sh -p ./Already-cloned-Repo
 
 REQUIRED TOOLS:
     git         
